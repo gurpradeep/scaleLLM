@@ -2,8 +2,7 @@ import time
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from optimum.onnxruntime import ORTModelForSeq2SeqLM
 
-text = """The Hugging Face Pro plan provides enhanced compute access, 
-persistent Spaces, private repositories, and priority inference endpoints for developers building AI applications."""
+text = """inference endpoints for developers building AI applications."""
 
 tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 
